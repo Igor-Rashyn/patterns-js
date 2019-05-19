@@ -1,0 +1,17 @@
+{
+    "design":[
+        {"name": "Photoshop", "price":5},
+        {"name": "Corel Draw", "price":15},
+        {"name": "Sketch", "price":10}
+    ],
+    "language": [
+        {"name": "Ukrainian", "price":5},
+        {"name": "English", "price":15},
+        {"name": "Urdu", "price":10}
+    ],
+    "music": [
+        {"name": "Zombie", "price":25},
+        {"name": "Chop Suey!", "price":35},
+        {"name": "Under The Bridge", "price":40}
+    ]
+}
