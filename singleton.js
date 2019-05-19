@@ -1,7 +1,7 @@
-var Singelton = (function () {
-    var obj;
+const Singelton = (function () {
+    let obj;
     function createInstance(){
-        var obj = new Object();
+        const obj = new Object();
         return obj
     }
 
