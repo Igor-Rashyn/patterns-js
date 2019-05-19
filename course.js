@@ -7,8 +7,12 @@ class Course {
         this.isCampain = isCampain;
     }
 
-    toString (course) {
+    print (course = this) {
         return console.log(JSON.stringify(course))
+    }
+
+    total(){
+        return this.price;
     }
 }
 
