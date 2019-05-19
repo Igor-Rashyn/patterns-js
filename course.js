@@ -7,8 +7,8 @@ class Course {
         this.isCampain = isCampain;
     }
 
-    toString () {
-        return console.log(JSON.stringify(this))
+    toString (course) {
+        return console.log(JSON.stringify(course))
     }
 }
 

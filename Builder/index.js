@@ -23,4 +23,18 @@ class CourseBuilder{
         return new Course(this);
     }
 }
-module.exports = CourseBuilder;
+
+class HotNew{
+    constructor(baseCourse){
+        this.name = `${baseCourse.name} + is Hot and New`;
+    }
+}
+
+class BestSeller{
+    constructor(baseCourse){
+        this.name = `${baseCourse.name} + is best seller`;
+    }
+}
+
+
+module.exports = { CourseBuilder, HotNew, BestSeller };
